@@ -1,0 +1,32 @@
+body{
+    background: url(coverjpg.jpg) no-repeat;
+}
+
+.form{
+    background-color: rgb(165, 152, 136);
+    width: 45%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    border-radius: 6px;
+}
+
+.form h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(172, 109, 109);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .form{
+        width: 65%;
+        padding: 40px;
+    }
+}
